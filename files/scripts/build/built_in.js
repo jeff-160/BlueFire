@@ -14,7 +14,7 @@ function Create_Map(){
 
 
 const PlayerSettings = new Character({
-    Name: "Benis Man",
+    Name: "Bean Man",
     Width: 100, Height: 100,
     Idle_Right: ["files/images/built_in/bean_man_1.png"],
     Idle_Left: ["files/images/built_in/bean_man_2.png"],
