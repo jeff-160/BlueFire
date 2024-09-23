@@ -46,7 +46,7 @@ function ParseData(unparsed_data){
 
 function SaveGame(){
     let file = new Blob([ConvertData()], {type: "text/plain;charset=utf-8"});
-    saveAs(file, `${System.project_name}.BIGDICKENGINE`)
+    saveAs(file, `${System.project_name}${System.extension}`)
 }
 
 

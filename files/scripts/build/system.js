@@ -1,4 +1,5 @@
 class System{
+    static extension = ".BLUEFIRE"
 
     static components = ["Tile", "Sprite", "Door", "Character"]
     static classes = [Tile, Sprite, Door, Character]

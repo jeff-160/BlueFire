@@ -147,8 +147,8 @@
         submit.onclick =()=> {
             const Reverse = (str)=>(str.split("").reverse().join(""))
 
-            if (box.type=="file" && Reverse(box.files[0].name).indexOf(Reverse(".BLUEFIRE"))!=0) 
-                return alert("Invalid file type.\nSupported extension: .BLUEFIRE")
+            if (box.type=="file" && Reverse(box.files[0].name).indexOf(Reverse(System.extension))!=0) 
+                return alert(`Invalid file type.\nSupported extension: ${System.extension}`)
             btninfo[3](box.type=="file" ? box.files:box.value)
 
             Array("MainMenu", "InputDiv", "SubmitButton", "BackButton").forEach(i=>document.body.removeChild(document.getElementById(i)))
